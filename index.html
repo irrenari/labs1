@@ -9,10 +9,16 @@
 
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/league.css" id="theme">
+    <link rel="stylesheet" href="dist/theme/beige.css" id="theme">
     <!--<link rel="stylesheet" href="custom.css">-->
     <!-- Theme used for syntax highlighted code -->
-    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+    <link rel="stylesheet" href="plugin/highlight/beige.css" id="highlight-theme">
+    <style>
+        #fontsi
+        {
+            font-size: 60%;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,116 +26,161 @@
         <div class="slides">
             <section data-markdown class = "center">
                 <script type="text/template">
-                    Игры
-                    =======
+                <h1>Финансовая математика</h1>
                 </script>
             </section>
             <section data-markdown class = "center">
                 <script type="text/template">
-                    Игра - занятие, обусловленное совокупностью определённых правил, 
-                    приёмов и служащее для заполнения досуга, развлечения.
+                    <h4>Финансовая математика</h4>
+                    <small>
+                    — раздел прикладной математики, имеющий дело 
+                    с математическими задачами, связанными с финансовыми расчётами. 
+                    В финансовой математике любой финансовый инструмент рассматривается 
+                    с точки зрения генерируемого этим инструментом некоторого
+                    (возможно случайного) денежного потока.
+                    </small>
                 </script>
             </section>
             <section data-markdown class = "center">
                 <script type="text/template">
-                    ## Компьютерные игры
+                    <h2>Основные формулы</h2>
                 </script>
             </section>
             <section data-markdown class = "center">
                 <script type="text/template">
-                    #### Компьютерная игра 
-                    <small>Взаимодействие по определённому алгоритму (с целью развлечения, обучения, или тренировки) 
-                    человека (группы людей) с компьютером или группы людей друг с другом посредством компьютра.</small>
+                    <h4> Формула наращения по простой процентной ставке </h4>
+                    <b> \( S=P(1+it) \) </b><br>
+                    <small>
+                        <br>
+                        S - наращенная сумма, <br>
+                        P - первоначальная сумма, <br>
+                        t - период начисления процентов, <br>
+                        i - ставка процентов за единицу времени.<br>
+                    </small>
                 </script>
             </section>
             <section data-markdown class = "center">
                 <script type="text/template">
-                    #### Компьютерная игра
-                    <small>Компьютерная программа, которая организует игровой процесс и управляет им, 
-                    а также осуществляет взаимодействие между соперниками и партнёрами по игре 
-                    или сама вступает в качестве игрока. В процессе игры на экране дисплея наглядно 
-                    отображается игровая ситуация. Анализируя эту ситуацию, играющий реагирует на неё 
-                    с помощью устройств ввода (клавиатуры, мыши, джойстика и др.). Ответные ходы или 
-                    соотетствующее изменение игровой ситуации компьютер воспроизводит на экране, 
-                    часто со звуковыми сопровождением.</small>
-                </script>
-            </section>
-            <section id="game_matrix">
-                <div id = "table"></div>
-            </section>
-            <section id = "game_matrix_table">
-                <div id = "table"></div>
-            </section>
-            <section data-markdown class = "center">
-                <script type="text/template">
-                    <em><b>Правила игры:</b></em><br> 
-                    <small>игра состоит из 25 ячеек (5x5), ячейки раскрашены в 7 цветов: 
-                    красный, зелёный, голубой, чёрный, белый, желтый и случайный цвет. 
-                    24 ячейки раскрашиваются в 6 разных цветов по 4 чейки каждый. 
-                    1 ячейка уникального цвета. С интервалом 300мс ячейки будут перемешиваться. 
-                    Нужно среди всех дргих цветов отыскать ячейку с уникальным цветом и кликнуть 
-                    на неё, пока ячейки снова не перемешались.</small>
+                    <h4> Формула дисконтирования по простой процентной ставке </h4><br>
+                    <b> \( P=\frac{S}{(1+\frac{i}{100}t)} \) </b><br>
+                    <small>
+                        <br>
+                        S - наращенная сумма, <br>
+                        P - первоначальная сумма, <br>
+                        t - период начисления процентов, <br>
+                        i - ставка процентов за единицу времени.<br>
+                    </small>
                 </script>
             </section>
             <section data-markdown class = "center">
                 <script type="text/template">
-                    <em><b>Начисление очков:</b></em><br> 
-                    <small>за каждую правильно кликнутую ячейку игрок получает 
-                500 баллов + количество оставших миллисекунд до перемешивания матрицы. 
-                При ошибочном нажатии вычитается 500 баллов + колличество оставшихся 
-                миллисекунд до смены матрицы.</small>
+                    <h4> Формула наращения по сложной процентной ставке </h4>
+                    <b> \( S=P(1+\frac{i}{100})^t \) </b><br>
+                    <small>
+                        <br>
+                        S - наращенная сумма, <br>
+                        P - первоначальная сумма, <br>
+                        t - период начисления процентов, <br>
+                        i - ставка процентов за единицу времени.<br>
+                    </small>
                 </script>
             </section>
-        </section>
-        <section data-markdown class = "center">
-            <script type="text/template">
-            <em><b>Длительность раундов:</b></em><br>
-            1. 15 секунд
-            2. 30 секунд
-            3. 45 секунд
-            </script>
-        </section>
-        <section id="pingpong">
-            <h3>Игра 2. Пинг-понг</h3>
-            <div class="flex">
-                <div id="field">
-                    <input type="name" id="gamer" value="гриша чушпан" >
-                    <input type="button" id="game_ping_pong_start" value="Присоедениться к игре" >
-                    <canvas id="game_ping_pong" width="720" height="480"></canvas>
-                </div>
-                <div id="joystick">
-                    <input type="range" min="75" max="480" value="240" orient="vertical" disabled/>
-                </div>
-            </div>
-        </section>
-        <section data-markdown class = "center">
-            <script type="text/template">
-                <em><b>Правила игры:</b></em><br> 
-                <small>игровое поле разделено на 2 части. 
-                    Слева и справа находятся двигающиеся вверх и вниз ракетки игроков, 
-                    которые отбивают шар по линейной траектории. В случае, елсли шар был отбит, 
-                    он меняет свою траекторию. Если шар улетел за пределы игрового поля, 
-                    одно очко достаётся тому, кто отбил этот шар последним.</small>
-            </script>
-        </section>
-        <section data-markdown class = "center">
-            <script type="text/template">
-                <em><b>Начисление очков:</b></em><br>
-                <small>1 очко, выигравшему раунд.</small><br>
-                <em><b>Длительность:</b></em><br>
-                <small>до первой ошибки игрок. Игра до 3х очков.</small><br>
-            </script>
-        </section>
-        
-        <section>
-            <h3>Игровой джойстик</h3>
-        </section>
-        <section
-        data-background-image="full.jpg"
-        data-menu-title="Картинка">
-        <h3>Картинка</h3>
-        </section>
+            <section data-markdown class = "center">
+                <script type="text/template">
+                    <h4> Формула дисконтирования по сложной процентной ставке </h4><br>
+                    <b> \( P=\frac{S}{(1+\frac{i}{100})^t} \) </b><br>
+                    <small>
+                        <br>
+                        S - наращенная сумма, <br>
+                        P - первоначальная сумма, <br>
+                        t - период начисления процентов, <br>
+                        i - ставка процентов за единицу времени.<br>
+                    </small>
+                </script>
+            </section>
+            <section data-markdown class = "center">
+                <script type="text/template">
+                    <h2>Методики начисления процентов</h2>
+                </script>
+            </section>
+            <section data-markdown class = "center">
+                <script type="text/template">
+                    <h4>Три методики начисления процентов</h4>
+                    <small>
+                    <dt>Английская методика:</dt>
+                    <dd>(365/365) – точные проценты с точным числом дней ссуды;</dd>
+                    <dt>Французская методика:</dt>
+                    <dd>(360/365) – обыкновенные проценты с точным числом дней ссуды; </dd>
+                    <dt>Германская методика: </dt>
+                    <dd>(360/360) – обыкновенные проценты с приближенным числом дней ссуды.</dd>
+                    </small>
+                </script>
+            </section>
+            <section data-markdown class = "center">
+                <script type="text/template">
+                    <h2>Примеры задач</h2>
+                </script>
+            </section>
+            <section data-markdown class = "center" id = "fontsi">
+                <script type="text/template">
+                    <h4>Пример 1. Формула наращения по простой процентной ставке</h4>
+                    <b>Задача.</b> Ссуда в размере 1 млн. руб. выдана 20.01 до 5.10 включительно под 18% годовых. 
+                    Какую сумму должен заплатить должник в конце срока при начислении простых процентов?<br>
+                    <b>Решение.</b> При решении применим все три метода. <br>
+                    Предварительно определим число дней ссуды t. <br>
+                    <small>
+                    Точное число дней: 258, приближенное число дней: 255.
+                    <dt>Точные проценты с точным числом дней ссуды (365/365).</dt>
+                    <dd>$S=1000000·(1+(258/365)·0,18)=1127232,88$ руб.</dd>
+                    <dt>Обыкновенные проценты с точным числом дней ссуды (365/360).</dt>
+                    <dd>$S=1000000·(1+(258/360)·0,18)=1129000,00$ руб.</dd>
+                    <dt>Обыкновенные проценты с приближенным числом дней ссуды (360/360).</dt>
+                    <dd>$S=1000000·(1+(255/360)·0,18)=1127500,00$ руб.</dd>
+                    </small>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </script>
+            </section>
+            
         </div>
     </div>
+
+    <script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+        <script src="plugin/math/math.js"></script>
+
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            center: false,
+            slideNumber: true,
+            controls: true,
+            dependencies: [
+                {
+                    src: 'plugin/menu/menu.js'
+                }
+            ],
+            menu: {
+                numbers: true,
+                markers: true,
+            },
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
+        });
+    </script>
 </body>
 </html>
