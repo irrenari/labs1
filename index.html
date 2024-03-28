@@ -52,7 +52,7 @@
             <section data-markdown class = "center">
                 <script type="text/template">
                     <h4> Формула наращения по простой процентной ставке </h4>
-                    <b> \( S=P(1+it) \) </b><br>
+                    <b> \( S=P(1+i \cdot t) \) </b><br>
                     <small>
                         <br>
                         S - наращенная сумма, <br>
@@ -65,7 +65,7 @@
             <section data-markdown class = "center">
                 <script type="text/template">
                     <h4> Формула дисконтирования по простой процентной ставке </h4><br>
-                    <b> \( P=\frac{S}{(1+\frac{i}{100}t)} \) </b><br>
+                    <b> \( P=\frac{S}{(1+\frac{i}{100} \cdot t)} \) </b><br>
                     <b> \( D = S - P \) </b><br>
                     <small>
                         <br>
@@ -138,12 +138,12 @@
                     <h4>Пример 1. Формула наращения по простой процентной ставке</h4>
                     <b>Задача.</b> В банк на депозит на три года по простой ставке 20% годовых положены 10000 руб. 
                         Найти наращенную сумму и величину процента, полученного вкладчиком на этот срок.<br>
-                        $$Дано: P = 10 тыс. руб., n = 3 года, i = 0,2.$$
+                        $$Дано: P = 10 тыс. руб., n = 3 года, i = 0.2.$$
                         $$Найти: I, S.$$
-                        $$Решение: S=P(1+i*n), $$
-                        $$I = P*i*n. $$
-                        $$S=10(1+0,2*3)=16 тыс.руб.$$
-                        $$I = 10*0,2*3=6 тыс.руб.$$
+                        $$Решение: S=P(1+i /cdot n), $$
+                        $$I = P \cdot i \cdot n. $$
+                        $$S=10(1+0,2 \cdot 3)=16 тыс.руб.$$
+                        $$I = 10*0,2 / cdot3=6 тыс.руб.$$
                         Ответ: \(S=16 тыс.руб., I=6 тыс.руб.\)
                 </script>
             </section>
@@ -154,8 +154,8 @@
                         Определить ставку процентов, на основании которой он может выбрать подходящий для этой цели банк.<br>
                         $$Дано: P = 250 тыс. руб., n = 1 год, S = 300 тыс. руб.$$
                         $$Найти: i.$$
-                        $$Решение: S=P(1+i*n),$$
-                        $$i=\frac{\frac{S}{P}-1}{n}=\frac{\frac{300}{250}-1}{1}=0,2 $$
+                        $$Решение: S=P(1+i \cdot n),$$
+                        $$i=\frac{\frac{S}{P}-1}{n}=\frac{\frac{300}{250}-1}{1}=0.2 $$
                         Ответ: \(i=20\)%.
                 </script>
             </section>
@@ -164,12 +164,12 @@
                     <h4>Пример 3. Формула наращения по простой процентной ставке</h4>
                     <b>Задача.</b> Вкладчик собирается положить деньги в банк с целью накопления через 9 месяцев суммы 500 тыс. руб. 
                         Банк начисляет проценты по ставке 10% годовых. Определите требуемую сумму вклада.<br>
-                        $$Дано: S = 500 тыс. руб., n = \frac{9}{12} год, i = 0,1.$$
+                        $$Дано: S = 500 тыс. руб., n = \frac{9}{12} год, i = 0.1.$$
                         $$Найти: P.$$
-                        $$Решение: S=P(1+i*n),$$
-                        $$P=\frac{S}{1+i*n}.$$
-                        $$P=\frac{500}{1+0,1*\frac{9}{12}}=465,116 тыс.руб.$$
-                        Ответ: \(P=465,116 тыс.руб.\)
+                        $$Решение: S=P(1+i \cdot n),$$
+                        $$P=\frac{S}{1+i \cdot n}.$$
+                        $$P=\frac{500}{1+0.1 \cdot \frac{9}{12}}=465.116 тыс.руб.$$
+                        Ответ: \(P=465.116 тыс.руб.\)
                 </script>
             </section>
             <section data-markdown class = "center">
@@ -186,14 +186,14 @@
                     а в другом банке – ежеквартально. Номинальная ставка процентов по кредиту в обоих 
                     банках одинакова и составляет 16% годовых.<br>
                     </small>
-                    $$Дано: P = 500 тыс. руб., n = 1 год, i = 0,16, m_1 = 12, m_2 = 4.$$
+                    $$Дано: P = 500 тыс. руб., n = 1 год, i = 0.16, m_1 = 12, m_2 = 4.$$
                     $$Найти: l_1, l_2.$$
-                    $$Решение: S=P(1+\frac{i}{100})^t, t = n*m, 
+                    $$Решение: S=P(1+\frac{i}{100})^t, t = n \cdot m, 
                     l = S - P $$
-                    $$l_1=500*(1+\frac{0,16}{12})^{12}-500=86,135 тыс.руб.$$
-                    $$l_2=500*(1+\frac{0,16}{4})^4-500=64,929 тыс.руб.$$
-                    $$Разница: \Delta l = 86,135 - 84,929 = 1,206 тыс.руб$$
-                    <small>Ответ: Начисленные проценты в первом банке больше на 1,206 тыс. руб. Во втором банке кредит брать выгоднее.</small>
+                    $$l_1=500 \cdot (1+\frac{0,16}{12})^{12}-500=86.135 тыс.руб.$$
+                    $$l_2=500 \cdot (1+\frac{0,16}{4})^4-500=64.929 тыс.руб.$$
+                    $$Разница: \Delta l = 86.135 - 84.929 = 1.206 тыс.руб$$
+                    <small>Ответ: Начисленные проценты в первом банке больше на 1.206 тыс. руб. Во втором банке кредит брать выгоднее.</small>
                 </script>
             </section>
             <section data-markdown class = "center" id = "fontsi">
@@ -201,12 +201,12 @@
                     <h4>Пример 2. Формула наращения по сложной процентной ставке</h4>
                     <b>Задача.</b>Денежные средства внесены на банковский депозит под  годовых. На какой срок должен быть заключен депозитный договор, 
                     чтобы наращенная сумма была в  раза больше внесенной. <br>
-                    $$Дано: i = 0,09, k = 4.$$
+                    $$Дано: i = 0.09, k = 4.$$
                     $$Найти: n.$$
-                    $$Решение: S_n=S_0*(1+i)^n,$$
-                    $$\ln\frac{S_n}{S_0}=n*\ln(1+i)$$
-                    $$n=\frac{\ln\frac{S_n}{S_0}}{\ln(1+i)}=\frac{\ln(k)}{\ln(1+i)}=\frac{\ln(4)}{\ln(1+0,09)}=16,1 лет.$$
-                    Ответ: \(n=16,1\) лет.
+                    $$Решение: S_n=S_0 \cdot (1+i)^n,$$
+                    $$\ln\frac{S_n}{S_0}=n \cdot \ln(1+i)$$
+                    $$n=\frac{\ln\frac{S_n}{S_0}}{\ln(1+i)}=\frac{\ln(k)}{\ln(1+i)}=\frac{\ln(4)}{\ln(1+0,09)}=16.1 лет.$$
+                    Ответ: \(n=16.1\) лет.
                 </script>
             </section>
             <section data-markdown class = "center" id = "fontsi">
@@ -214,11 +214,11 @@
                     <h4>Пример 3. Формула наращения по сложной процентной ставке</h4>
                     <b>Задача.</b> На какую сумму следует открыть депозит, чтобы за полтора года на счете вкладчика накопить 500 тыс. руб., 
                     если банк предлагает сложную ставку 8% годовых с ежеквартальным начислением процентов?<br>
-                    $$Дано: S = 500 тыс. руб., n = 1,5 года, j = 0,08, m = 4.$$
+                    $$Дано: S = 500 тыс. руб., n = 1.5 года, j = 0.08, m = 4.$$
                     $$Найти: P.$$
-                    $$Решение: S=P(1+\frac{j}{m})^t, t = n*m.$$
-                    $$P = \frac{S}{(1+\frac{j}{m})^t}=\frac{500}{(1+\frac{0,08}{4})^6}=443,986 тыс.руб.$$
-                    Ответ: \(P=443,986\) тыс.руб.
+                    $$Решение: S=P(1+\frac{j}{m})^t, t = n \cdot m.$$
+                    $$P = \frac{S}{(1+\frac{j}{m})^t}=\frac{500}{(1+\frac{0,08}{4})^6}=443.986 тыс.руб.$$
+                    Ответ: \(P=443.986\) тыс.руб.
                 </script>
             </section>
 
@@ -232,17 +232,17 @@
                 <script type="text/template">
                     <h4>Пример 1. Формула дисконтирования по простой процентной ставке</h4>
                     <small>
-                    <b>Задача.</b> Через 159 дней после подписания договора должник уплачивает 8,5 тыс. руб. 
+                    <b>Задача.</b> Через 159 дней после подписания договора должник уплачивает 8.5 тыс. руб. 
                     Кредит выдан под 19% годовых. Какова первоначальная сумма долга и дисконт при условии, 
                     что временная база равна 360 дней?<br>
                     </small>
-                    $$Дано: S = 8,5 тыс. руб., n = \frac{159}{360} дней, i = 0,19.$$
+                    $$Дано: S = 8.5 тыс. руб., n = \frac{159}{360} дней, i = 0.19.$$
                     $$Найти: P, D.$$
-                    $$Решение: P=\frac{S}{(1+n*i)},$$ 
+                    $$Решение: P=\frac{S}{(1+n \cdot i)},$$ 
                     $$D = S - P $$
-                    $$P=\frac{8500}{(1+\frac{159}{360}*0,19 )}=7841,93 тыс.руб.$$
-                    $$D=8500-7841,93 = 658,07 тыс.руб.$$
-                    Ответ: \(P=7841,93 тыс.руб., D=658,07 тыс.руб.\)
+                    $$P=\frac{8500}{(1+\frac{159}{360} \cdot 0,19 )}=7841.93 тыс.руб.$$
+                    $$D=8500-7841.93 = 658.07 тыс.руб.$$
+                    Ответ: \(P=7841.93 тыс.руб., D=658.07 тыс.руб.\)
                 </script>
             </section>
             <section data-markdown class = "center" id = "fontsi">
@@ -251,11 +251,11 @@
                     <b>Задача.</b> Какую цену заплатит инвестор за бескупонную облигацию с номиналом в 100 тыс.руб. 
                     и погашением через 90 дней, если требуемая норма доходности равна 12% при условии, 
                     что временная база равна 365 дней?<br>
-                    $$Дано: S = 100 тыс. руб., n = \frac{90}{360} дней, i = 0,12.$$
+                    $$Дано: S = 100 тыс. руб., n = \frac{90}{360} дней, i = 0.12.$$
                     $$Найти: P.$$
-                    $$Решение: P=\frac{S}{(1+n*i)}.$$
-                    $$P=\frac{100}{(1+0,12*\frac{90}{360})}=97,087 тыс.руб.$$
-                    Ответ: \(P=97,087 тыс.руб.\)
+                    $$Решение: P=\frac{S}{(1+n \cdot i)}.$$
+                    $$P=\frac{100}{(1+0,12 \cdot \frac{90}{360})}=97.087 тыс.руб.$$
+                    Ответ: \(P=97.087 тыс.руб.\)
                 </script>
             </section>
             <section data-markdown class = "center" id = "fontsi">
@@ -265,10 +265,10 @@
                     <b>Задача.</b> Через 6 лет предприятию будет выплачена сумма 1000 тыс. руб. 
                     Определить её современную стоимость, при условии, что применяется ставка сложных процентов 10% годовых.<br>
                     </small>
-                    $$Дано: S = 1000 тыс. руб., n = 6 лет, i = 0,1.$$
+                    $$Дано: S = 1000 тыс. руб., n = 6 лет, i = 0.1.$$
                     $$Найти: P.$$
-                    $$Решение: P=\frac{S}{(1+n*i)},$$
-                    $$P=\frac{1000}{(1+0,1*6)}=625 тыс.руб.$$
+                    $$Решение: P=\frac{S}{(1+n \cdot i)},$$
+                    $$P=\frac{1000}{(1+0,1 \cdot 6)}=625 тыс.руб.$$
                     Ответ: \(P=625 тыс.руб.\)
                 </script>
             </section>
@@ -286,14 +286,14 @@
             <section data-markdown class = "center" id = "fontsi">
                 <script type="text/template">
                     <h4>Пример 1. Формула дисконтирования по сложной процентной ставке</h4>
-                    <b>Задача.</b> Что выгоднее: получить 2,8 тыс. р. 
-                через 3 года или 2,9 тыс. р. через 4 года, если можно поместить деньги на депозит под сложную ставку 10 % годовых?<br>
-                $$Дано: S_1 = 2,8 тыс. руб., S_2 = 2,9 тыс. руб., n_1 = 3 года, n_2 = 4 года, i = 10%.$$
+                    <b>Задача.</b> Что выгоднее: получить 2.8 тыс. р. 
+                через 3 года или 2.9 тыс. р. через 4 года, если можно поместить деньги на депозит под сложную ставку 10 % годовых?<br>
+                $$Дано: S_1 = 2.8 тыс. руб., S_2 = 2,9 тыс. руб., n_1 = 3 года, n_2 = 4 года, i = 10%.$$
                 $$Найти: Выгодную P.$$
                 $$Решение: P=\frac{S}{(1+\frac{i}{100})^n}$$
-                $$P_1=\frac{2,8}{(1+0,1)^3}=2,104 тыс.руб.$$
-                $$P_1=\frac{2,9}{(1+0,1)^4}=1,981 тыс.руб.$$
-                Ответ: Выгоднее получить 2,8 тыс. руб. через 3 года.
+                $$P_1=\frac{2.8}{(1+0,1)^3}=2.104 тыс.руб.$$
+                $$P_1=\frac{2.9}{(1+0,1)^4}=1.981 тыс.руб.$$
+                Ответ: Выгоднее получить 2.8 тыс. руб. через 3 года.
                 </script>
             </section>
             <section data-markdown class = "center" id = "fontsi">
@@ -305,8 +305,8 @@
                 $$Дано: P = 20 тыс. руб., n = 2 года, i = 10%.$$
                 $$Найти: S.$$
                 $$Решение: S=\frac{P}{(1+\frac{i}{100})^n}$$
-                $$S=\frac{20}{(1+0,1)^2}=16,529 тыс.руб.$$
-                Ответ: \(S=16,529 тыс.руб.\)
+                $$S=\frac{20}{(1+0,1)^2}=16.529 тыс.руб.$$
+                Ответ: \(S=16.529 тыс.руб.\)
                 </script>
             </section>
             <section data-markdown class = "center" id = "fontsi">
@@ -315,11 +315,11 @@
                     <b>Задача.</b> Какую сумму следует проставить в векселе, если реально 
                 выданная сумма равна 20 тыс. руб., срок погашения 2 года. Вексель рассчитывается, 
                 исходя из сложной годовой процентной ставки 10%.<br>
-                $$Дано: P = 20 тыс. руб., n = 2 года, i = 0,1.$$
+                $$Дано: P = 20 тыс. руб., n = 2 года, i = 0.1.$$
                 $$Найти: S.$$
                 $$Решение: S=\frac{P}{(1+\frac{i}{100})^n}$$
-                $$S=\frac{20}{(1+0,1)^2}=16,529 тыс.руб.$$
-                Ответ: \(S=16,529 тыс.руб.\)
+                $$S=\frac{20}{(1+0.1)^2}=16.529 тыс.руб.$$
+                Ответ: \(S=16.529 тыс.руб.\)
                 </script>
             </section>
 
@@ -389,12 +389,12 @@
             <section data-markdown class="center">
                 <script type="text/template">
                     <h3>Английская практика для подсчёта кредита по простым процентам</h3>
-                    <label for="P">Введите начальную сумму, P = </label><input id="P" value="10000"/>
-                    <label for="T"> Введите срок погашения в днях, T = </label><input id="T" value="360"/><br>
-                    <label for="I"> Введите процентную ставку в процентах, I = </label><input id="I" value="17"/><br>
+                    <label for="P1">Введите начальную сумму, P = </label><input id="P1" value="10000"/>
+                    <label for="T1"> Введите срок погашения в днях, T = </label><input id="T1" value="360"/><br>
+                    <label for="I1"> Введите процентную ставку в процентах, I = </label><input id="I1" value="17"/><br>
                     <input type="button" id="pr1" value="Посчитать"><br>
-                    <label for="rez"><b>Сумма кредита, S = </b></label><br>
-                    <output type="text" name="rez" id="rez"></output><br>
+                    <label for="rez1"><b>Сумма кредита, S = </b></label><br>
+                    <output type="text" name="rez1" id="rez1"></output><br>
                 </script>
             </section>
 
@@ -404,11 +404,11 @@
                     ```
                     window.onload = () => {
                         document.querySelector('#pr1').onclick = () => {
-                            let P = document.querySelector("#P");
-                            let T = document.querySelector("#T");
-                            let I = document.querySelector("#I");
-                            let S = P.value*(1+T.value*((I.value/100)/365));
-                            rez.innerHTML = S.toFixed(2); 
+                            let P1 = document.querySelector("#P1");
+                            let T1 = document.querySelector("#T1");
+                            let I1 = document.querySelector("#I1");
+                            let S1 = P1.value*(1+T1.value*((I1.value/100)/365));
+                            rez1.innerHTML = S1.toFixed(2); 
                         }
                     }
                     ```
@@ -418,12 +418,12 @@
             <section data-markdown class="center">
                 <script type="text/template">
                     <h3>Английская практика для подсчёта кредита по сложным процентам</h3>
-                    <label for="P">Введите начальную сумму, P = </label><input id="P" value="10000"/>
-                    <label for="T"> Введите срок погашения в днях, T = </label><input id="T" value="360"/><br>
-                    <label for="I"> Введите процентную ставку в процентах, I = </label><input id="I" value="17"/><br>
+                    <label for="P2">Введите начальную сумму, P = </label><input id="P2" value="10000"/>
+                    <label for="T2"> Введите срок погашения в днях, T = </label><input id="T2" value="360"/><br>
+                    <label for="I2"> Введите процентную ставку в процентах, I = </label><input id="I2" value="17"/><br>
                     <input type="button" id="pr2" value="Посчитать"><br>
-                    <label for="rez"><b>Сумма кредита, S = </b></label><br>
-                    <output type="text" name="rez" id="rez"></output><br>
+                    <label for="rez2"><b>Сумма кредита, S = </b></label><br>
+                    <output type="text" name="rez2" id="rez2"></output><br>
                 </script>
             </section>
 
@@ -433,11 +433,11 @@
                     ```
                     window.onload = () => {
                         document.querySelector('#pr2').onclick = () => {
-                            let P = document.querySelector("#P");
-                            let T = document.querySelector("#T");
-                            let I = document.querySelector("#I");
-                            let S = P.value*(1+T.value*Math.pow(1+I.value/100, T/365));
-                            rez.innerHTML = S.toFixed(2); 
+                            let P2 = document.querySelector("#P2");
+                            let T2 = document.querySelector("#T2");
+                            let I2 = document.querySelector("#I2");
+                            let S2 = P2.value*(1+Math.pow(1+I2.value/100, T2.value/365));
+                            rez2.innerHTML = S2.toFixed(2); 
                         }
                     }
                     ```
@@ -447,12 +447,12 @@
             <section data-markdown class="center">
                 <script type="text/template">
                     <h3>Французская практика для подсчёта кредита по простым процентам</h3>
-                    <label for="P">Введите начальную сумму, P = </label><input id="P" value="10000"/>
-                    <label for="T"> Введите срок погашения в днях, T = </label><input id="T" value="360"/><br>
-                    <label for="I"> Введите процентную ставку в процентах, I = </label><input id="I" value="17"/><br>
+                    <label for="P3">Введите начальную сумму, P = </label><input id="P3" value="10000"/>
+                    <label for="T3"> Введите срок погашения в днях, T = </label><input id="T3" value="360"/><br>
+                    <label for="I3"> Введите процентную ставку в процентах, I = </label><input id="I3" value="17"/><br>
                     <input type="button" id="pr3" value="Посчитать"><br>
-                    <label for="rez"><b>Сумма кредита, S = </b></label><br>
-                    <output type="text" name="rez" id="rez"></output><br>
+                    <label for="rez3"><b>Сумма кредита, S = </b></label><br>
+                    <output type="text" name="rez3" id="rez3"></output><br>
                 </script>
             </section>
 
@@ -462,11 +462,11 @@
                     ```
                     window.onload = () => {
                         document.querySelector('#pr3').onclick = () => {
-                            let P = document.querySelector("#P");
-                            let T = document.querySelector("#T");
-                            let I = document.querySelector("#I");
-                            let S = P.value*(1+T.value*((I.value/100)/365));
-                            rez.innerHTML = S.toFixed(2); 
+                            let P3 = document.querySelector("#P3");
+                            let T3 = document.querySelector("#T3");
+                            let I3 = document.querySelector("#I3");
+                            let S3 = P3.value*(1+T3.value*((I3.value/100)/365));
+                            rez3.innerHTML = S3.toFixed(2); 
                         }
                     }
                     ```
@@ -476,12 +476,12 @@
             <section data-markdown class="center">
                 <script type="text/template">
                     <h3>Французская практика для подсчёта кредита по сложным процентам</h3>
-                    <label for="P">Введите начальную сумму, P = </label><input id="P" value="10000"/>
-                    <label for="T"> Введите срок погашения в днях, T = </label><input id="T" value="360"/><br>
-                    <label for="I"> Введите процентную ставку в процентах, I = </label><input id="I" value="17"/><br>
+                    <label for="P4">Введите начальную сумму, P = </label><input id="P4" value="10000"/>
+                    <label for="T4"> Введите срок погашения в днях, T = </label><input id="T4" value="360"/><br>
+                    <label for="I4"> Введите процентную ставку в процентах, I = </label><input id="I4" value="17"/><br>
                     <input type="button" id="pr4" value="Посчитать"><br>
-                    <label for="rez"><b>Сумма кредита, S = </b></label><br>
-                    <output type="text" name="rez" id="rez"></output><br>
+                    <label for="rez4"><b>Сумма кредита, S = </b></label><br>
+                    <output type="text" name="rez4" id="rez4"></output><br>
                 </script>
             </section>
 
@@ -491,11 +491,11 @@
                     ```
                     window.onload = () => {
                         document.querySelector('#pr4').onclick = () => {
-                            let P = document.querySelector("#P");
-                            let T = document.querySelector("#T");
-                            let I = document.querySelector("#I");
-                            let S = P.value*(1+T.value*Math.pow(1+I.value/100, T/365));
-                            rez.innerHTML = S.toFixed(2); 
+                            let P4 = document.querySelector("#P4");
+                            let T4 = document.querySelector("#T4");
+                            let I4 = document.querySelector("#I4");
+                            let S4 = P4.value*(1+Math.pow(1+I4.value/100, T4.value/365));
+                            rez4.innerHTML = S4.toFixed(2); 
                         }
                     }
                     ```
@@ -505,12 +505,12 @@
             <section data-markdown class="center">
                 <script type="text/template">
                     <h3>Германская практика для подсчёта кредита по простым процентам</h3>
-                    <label for="P">Введите начальную сумму, P = </label><input id="P" value="10000"/>
-                    <label for="T"> Введите срок погашения в днях, T = </label><input id="T" value="360"/><br>
-                    <label for="I"> Введите процентную ставку в процентах, I = </label><input id="I" value="17"/><br>
+                    <label for="P5">Введите начальную сумму, P = </label><input id="P5" value="10000"/>
+                    <label for="T5"> Введите срок погашения в днях, T = </label><input id="T5" value="360"/><br>
+                    <label for="I5"> Введите процентную ставку в процентах, I = </label><input id="I5" value="17"/><br>
                     <input type="button" id="pr5" value="Посчитать"><br>
-                    <label for="rez"><b>Сумма кредита, S = </b></label><br>
-                    <output type="text" name="rez" id="rez"></output><br>
+                    <label for="rez5"><b>Сумма кредита, S = </b></label><br>
+                    <output type="text" name="rez5" id="rez5"></output><br>
                 </script>
             </section>
 
@@ -520,11 +520,11 @@
                     ```
                     window.onload = () => {
                         document.querySelector('#pr5').onclick = () => {
-                            let P = document.querySelector("#P");
-                            let T = document.querySelector("#T");
-                            let I = document.querySelector("#I");
-                            let S = P.value*(1+T.value*((I.value/100)/360));
-                            rez.innerHTML = S.toFixed(2); 
+                            let P5 = document.querySelector("#P5");
+                            let T5 = document.querySelector("#T5");
+                            let I5 = document.querySelector("#I5");
+                            let S5 = P5.value*(1+T5.value*((I5.value/100)/360));
+                            rez5.innerHTML = S5.toFixed(2); 
                         }
                     }
                     ```
@@ -534,12 +534,12 @@
             <section data-markdown class="center">
                 <script type="text/template">
                     <h3>Германская практика для подсчёта кредита по сложным процентам</h3>
-                    <label for="P">Введите начальную сумму, P = </label><input id="P" value="10000"/>
-                    <label for="T"> Введите срок погашения в днях, T = </label><input id="T" value="360"/><br>
-                    <label for="I"> Введите процентную ставку в процентах, I = </label><input id="I" value="17"/><br>
+                    <label for="P6">Введите начальную сумму, P = </label><input id="P6" value="10000"/>
+                    <label for="T6"> Введите срок погашения в днях, T = </label><input id="T6" value="360"/><br>
+                    <label for="I6"> Введите процентную ставку в процентах, I = </label><input id="I6" value="17"/><br>
                     <input type="button" id="pr6" value="Посчитать"><br>
-                    <label for="rez"><b>Сумма кредита, S = </b></label><br>
-                    <output type="text" name="rez" id="rez"></output><br>
+                    <label for="rez6"><b>Сумма кредита, S = </b></label><br>
+                    <output type="text" name="rez6" id="rez6"></output><br>
                 </script>
             </section>
 
@@ -549,11 +549,11 @@
                     ```
                     window.onload = () => {
                         document.querySelector('#pr6').onclick = () => {
-                            let P = document.querySelector("#P");
-                            let T = document.querySelector("#T");
-                            let I = document.querySelector("#I");
-                            let S = P.value*(1+T.value*Math.pow(1+I.value/100, T/360));
-                            rez.innerHTML = S.toFixed(2); 
+                            let P6 = document.querySelector("#P6");
+                            let T6 = document.querySelector("#T6");
+                            let I6 = document.querySelector("#I6");
+                            let S6 = P6.value*(1+Math.pow(1+I6.value/100, T6.value/360));
+                            rez6.innerHTML = S6.toFixed(2); 
                         }
                     }
                     ```
@@ -658,62 +658,69 @@
         <script>
             window.onload = () => {
                 document.querySelector('#pr1').onclick = () => {
-                    let P = document.querySelector("#P");
-                    let T = document.querySelector("#T");
-                    let I = document.querySelector("#I");
-                    let S = P.value*(1+T.value*((I.value/100)/365));
-                    rez.innerHTML = S.toFixed(2); 
+                    let P1 = document.querySelector("#P1");
+                    let T1 = document.querySelector("#T1");
+                    let I1 = document.querySelector("#I1");
+                    let S1 = P1.value*(1+T1.value*((I1.value/100)/365));
+                    rez1.innerHTML = S1.toFixed(2); 
                 }
             }
-
+            </script>
+            <script>
             window.onload = () => {
                 document.querySelector('#pr2').onclick = () => {
-                    let P = document.querySelector("#P");
-                    let T = document.querySelector("#T");
-                    let I = document.querySelector("#I");
-                    let S = P.value*(1+T.value*Math.pow(1+I.value/100, T/365));
-                    rez.innerHTML = S.toFixed(2); 
+                    let P2 = document.querySelector("#P2");
+                    let T2 = document.querySelector("#T2");
+                    let I2 = document.querySelector("#I2");
+                    let S2 = P2.value*(1+Math.pow(1+I2.value/100, T2.value/365));
+                    rez2.innerHTML = S2.toFixed(2); 
                 }
             }
+        </script>
+        <script>
             window.onload = () => {
                 document.querySelector('#pr3').onclick = () => {
-                    let P = document.querySelector("#P");
-                    let T = document.querySelector("#T");
-                    let I = document.querySelector("#I");
-                    let S = P.value*(1+T.value*((I.value/100)/365));
-                    rez.innerHTML = S.toFixed(2); 
+                    let P3 = document.querySelector("#P3");
+                    let T3 = document.querySelector("#T3");
+                    let I3 = document.querySelector("#I3");
+                    let S3 = P3.value*(1+T3.value*((I3.value/100)/365));
+                    rez3.innerHTML = S3.toFixed(2); 
                 }
             }
-
+        </script>
+        <script>
             window.onload = () => {
                 document.querySelector('#pr4').onclick = () => {
-                    let P = document.querySelector("#P");
-                    let T = document.querySelector("#T");
-                    let I = document.querySelector("#I");
-                    let S = P.value*(1+T.value*Math.pow(1+I.value/100, T/365));
-                    rez.innerHTML = S.toFixed(2); 
+                    let P4 = document.querySelector("#P4");
+                    let T4 = document.querySelector("#T4");
+                    let I4 = document.querySelector("#I4");
+                    let S4 = P4.value*(1+Math.pow(1+I4.value/100, T4.value/365));
+                    rez4.innerHTML = S4.toFixed(2); 
                 }
             }
+        </script>
+        <script>
             window.onload = () => {
                 document.querySelector('#pr5').onclick = () => {
-                    let P = document.querySelector("#P");
-                    let T = document.querySelector("#T");
-                    let I = document.querySelector("#I");
-                    let S = P.value*(1+T.value*((I.value/100)/360));
-                    rez.innerHTML = S.toFixed(2); 
+                    let P5 = document.querySelector("#P5");
+                    let T5 = document.querySelector("#T5");
+                    let I5 = document.querySelector("#I5");
+                    let S5 = P5.value*(1+T5.value*((I5.value/100)/360));
+                    rez5.innerHTML = S5.toFixed(2); 
+                }
+            }
+        </script>
+        <script>
+            window.onload = () => {
+                document.querySelector('#pr6').onclick = () => {
+                    let P6 = document.querySelector("#P6");
+                    let T6 = document.querySelector("#T6");
+                    let I6 = document.querySelector("#I6");
+                    let S6 = P6.value*(1+Math.pow(1+I6.value/100, T6.value/360));
+                    rez6.innerHTML = S6.toFixed(2); 
                 }
             }
 
-            window.onload = () => {
-                document.querySelector('#pr6').onclick = () => {
-                    let P = document.querySelector("#P");
-                    let T = document.querySelector("#T");
-                    let I = document.querySelector("#I");
-                    let S = P.value*(1+T.value*Math.pow(1+I.value/100, T/360));
-                    rez.innerHTML = S.toFixed(2); 
-                }
-            }
-            
         </script>
 </body>
 </html>
