@@ -560,6 +560,18 @@
                 </script>
             </section>
 
+            <section data-markdown class="center">
+                <script type="text/template">
+                    <img src="kart2.jpg" id="karp1" alt="kar2">
+                </script>
+            </section>
+
+            <section data-markdown class="center">
+                <script type="text/template">
+                    <img src="kart1.jpg" id="karp1" alt="kar2">
+                </script>
+            </section>
+
             <section data-markdown class = "center">
                 <script type="text/template">
                     <h2><b>Спасибо за внимание!</b></h2>
@@ -567,6 +579,7 @@
                 
                 </script>
             </section>
+            
 
 
 
@@ -663,64 +676,45 @@
                     let I1 = document.querySelector("#I1");
                     let S1 = P1.value*(1+T1.value*((I1.value/100)/365));
                     rez1.innerHTML = S1.toFixed(2); 
-                }
-            }
-            </script>
-            <script>
-            window.onload = () => {
-                document.querySelector('#pr2').onclick = () => {
+
+                    document.querySelector('#pr2').onclick = () => {
                     let P2 = document.querySelector("#P2");
                     let T2 = document.querySelector("#T2");
                     let I2 = document.querySelector("#I2");
                     let S2 = P2.value*(1+Math.pow(1+I2.value/100, T2.value/365));
                     rez2.innerHTML = S2.toFixed(2); 
-                }
-            }
-        </script>
-        <script>
-            window.onload = () => {
-                document.querySelector('#pr3').onclick = () => {
+                    }
+                    document.querySelector('#pr3').onclick = () => {
                     let P3 = document.querySelector("#P3");
                     let T3 = document.querySelector("#T3");
                     let I3 = document.querySelector("#I3");
                     let S3 = P3.value*(1+T3.value*((I3.value/100)/365));
                     rez3.innerHTML = S3.toFixed(2); 
-                }
-            }
-        </script>
-        <script>
-            window.onload = () => {
-                document.querySelector('#pr4').onclick = () => {
+                    }
+                    document.querySelector('#pr4').onclick = () => {
                     let P4 = document.querySelector("#P4");
                     let T4 = document.querySelector("#T4");
                     let I4 = document.querySelector("#I4");
                     let S4 = P4.value*(1+Math.pow(1+I4.value/100, T4.value/365));
                     rez4.innerHTML = S4.toFixed(2); 
-                }
-            }
-        </script>
-        <script>
-            window.onload = () => {
-                document.querySelector('#pr5').onclick = () => {
+                    }
+                    document.querySelector('#pr5').onclick = () => {
                     let P5 = document.querySelector("#P5");
                     let T5 = document.querySelector("#T5");
                     let I5 = document.querySelector("#I5");
                     let S5 = P5.value*(1+T5.value*((I5.value/100)/360));
                     rez5.innerHTML = S5.toFixed(2); 
-                }
-            }
-        </script>
-        <script>
-            window.onload = () => {
-                document.querySelector('#pr6').onclick = () => {
+                    }
+                    document.querySelector('#pr6').onclick = () => {
                     let P6 = document.querySelector("#P6");
                     let T6 = document.querySelector("#T6");
                     let I6 = document.querySelector("#I6");
                     let S6 = P6.value*(1+Math.pow(1+I6.value/100, T6.value/360));
                     rez6.innerHTML = S6.toFixed(2); 
+                    }
                 }
             }
-
+            
         </script>
 </body>
 </html>
